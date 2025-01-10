@@ -149,7 +149,39 @@ nav ul li a button {
 
 }
 
-/* .father-of-section2{
-    border: 1px solid red;
-    margin: 70%;
-} */
+/* skill-set-section styles */
+.skill-section-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: 100%;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+    margin: 50px auto;
+   /* border: 1px solid red; */
+}
+
+
+
+.skill-parent{
+
+    display: flex;
+    gap: 24px;
+    /* flex-direction: row;
+    width: 100%;
+    justify-content: space-between; */
+}
+
+.skill-child p{
+
+    width: 80%;
+ 
+}
+
+.skill-child{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.09);
+    margin: 5px;
+}
+
